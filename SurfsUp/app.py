@@ -157,7 +157,7 @@ def start (start):
 @app.route("/api/v1.0/<start>/<end>")
 def start_end (start, end):
     result = session.query(func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)).\
-        filter(Measurement.date >= start).filter(Measurement.date <= end).first()#all()
+        filter(Measurement.date >= start).filter(Measurement.date <= end).first()
     session.close()
     temps=dict()
     temps['TMIN']=result[0]
