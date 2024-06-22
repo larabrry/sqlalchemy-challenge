@@ -49,7 +49,4 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 - For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
 
-## Notes
 
-I have used the help of github to get the ```strftime()``` function that I used in part 1 and 2 of the assignment. 
-Also my mentor Abbass helped me code the x-ticks variable that I've used in formatting the precipitation plot. He also helped me turn the start and latest dates into methods.
